@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page name="loginpage">
+	    <element name="项目页BUG链接" type="css" value="a[href='/zentao/project-bug-1.html']" timeout="5">bugLink</element>
+</page>

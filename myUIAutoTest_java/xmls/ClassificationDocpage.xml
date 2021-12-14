@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page name="ClassificationDoc">  
+	    <!-- 维护文档库分类-->
+	    <element name="模块名称框" type="css" value="input[id='modules[]'] +input" timeout="5">moduleName</element>
+	    <element name="简称名称框" type="css" value="input[id='shorts[]']+input" timeout="5">smoduleName</element>
+	    <element name="增加一行按钮" type="css" value="span.input-group-addon fix-border>i.icon icon-plus" timeout="5">addrowClick</element>
+	    <element name="删除一行按钮" type="css" value="span.input-group-addon>i.icon icon-remove" timeout="5">deleterowClick</element>
+	    <element name="保存按钮" type="css" value="button#submit" timeout="5">saveClick</element>
+	    <element name="返回按钮" type="css" value="a.btn btn-back " timeout="5">returnClick</element>
+</page>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page name="loginpage">  
+
+	    <element name="所属产品" type="css" value="div#product_chosen" timeout="5">productbelongs</element>
+	    <element name="所属分类" type="css" value="div#module_chosen" timeout="5">classbelongs</element>
+	    <!-- 定位不到 -->
+	    <element name="文件" type="css" value="label.radio-inline" timeout="5">docfile</element>
+	    <element name="链接" type="css" value="label.radio-inline" timeout="5">doclink</element>
+	    <element name="网页" type="css" value="input#typetext" timeout="5">docweb</element>
+	    
+	    <element name="文档标题" type="css" value="input#title" timeout="5">doctitle</element>    
+	    <element name="关键字" type="css" value="input#keywords" timeout="5">keyword</element>
+	    <element name="文档摘要" type="css" value="textarea#digest" timeout="5">docsummary</element>
+        <element name="附件" type="css" value="input.fileControl" timeout="5">attachment</element>
+	   <element name="标题" type="css" value="input.form-control" timeout="5">addTitle</element>
+	   <element name="增加标题" type="css" value="input.fileControl" timeout="5">addRow</element>
+	    <element name="删除标题" type="css" value="input.fileControl" timeout="5">deletRow</element>
+        <element name="保存" type="css" value="button#submit" timeout="5">save</element>
+	     <element name="返回" type="css" value="a.btn.btn-back " timeout="5">back</element>
+ </page>
+ 

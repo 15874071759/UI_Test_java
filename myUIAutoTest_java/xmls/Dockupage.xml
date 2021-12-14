@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page name="createDoc">  
+	    <!-- 内容界面 -->
+	    <element name="文档库名称框" type="css" value="input[placeholder='文档库名称']" timeout="5">dockuName</element>
+		<element name="文档库名称保存" type="css" value="button#submit" timeout="5">saveClick</element>
+	<!--     <element name="文档库名称保存" type="css" value="button.btn btn-primary" timeout="5">saveClick</element> -->
+</page>

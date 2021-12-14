@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>   <!-- 主页面 -->
+<page name="mainpage">
+	    <element name="我的地盘链接" type="css" value="ul.nav li.active" timeout="5">MyLink</element>
+	    <element name="主页产品链接" type="css" value="a[href='/zentao/product/']" timeout="5">chanpingLink</element>
+	    <element name="主页项目链接" type="css" value="a[href='/zentao/project/']" timeout="5">projectLink</element>
+	    <element name="主页测试链接" type="css" value="li[data-id='qa']" timeout="5">testLink</element>   
+	    <element name="主页文档链接" type="css" value="a[href='/zentao/doc/']" timeout="5">wendangLink</element>
+	    <element name="主页统计链接" type="css" value="a[href='/zentao/report/']" timeout="5">tongjiLink</element>
+        <element name="主页组织链接" type="css" value="a[href='/zentao/company/']" timeout="5">zuzhiLink</element>
+	    <element name="主页后台链接" type="css" value="a[href='/zentao/admin/']" timeout="5">houtaiLink</element>
+  <element name="admin" type="css" value="div#userMenu" timeout="5">houtaiLink</element>
+ 
+  <element name="个人档案" type="css" value="a[href='/zentao/my-profile.html?onlybody=yes']" timeout="5">grdanganLink</element>
+  <element name="更改密码" type="css" value="a[href='/zentao/my-changepassword.html?onlybody=yes']" timeout="5">ggmimaLink</element>
+  <element name="主题" type="css" value="div#userMenu ul li:nth-child(4)" timeout="5">zhutiLink</element>
+     <element name="默认" type="css" value="div#userMenu ul li:nth-child(4) ul li:nth-child(1)" timeout="5">defaultLink</element>
+     <element name="绿色" type="css" value="div#userMenu ul li:nth-child(4) ul li:nth-child(2)" timeout="5">greenLink</element>
+     <element name="红色" type="css" value="div#userMenu ul li:nth-child(4) ul li:nth-child(3)" timeout="5">redtLink</element>
+     <element name="亮蓝" type="css" value="div#userMenu ul li:nth-child(4) ul li:nth-child(4)" timeout="5">lightblueLink</element>
+     <element name="黑莓" type="css" value="div#userMenu ul li:nth-child(4) ul li:nth-child(5)" timeout="5">blackberryLink</element>
+   
+  
+  <element name="Language" type="css" value="div#userMenu ul.dropdown-menu>li.dropdown-submenu.left:nth-child(5)" timeout="5">lgLink</element>
+  
+  
+  
+  <element name="退出" type="css" value="a[href='/zentao/user-logout.html']" timeout="5">exitLink</element>
+  <element name="帮助" type="css" value="div#topnav>div:nth-child(3)" timeout="5">helpLink</element>
+      <element name="手册" type="css" value="a.open-help-tab" timeout="5">shouceLink</element>
+      <element name="新手教程" type="css" value="a[href='/zentao/tutorial-start.html']" timeout="5">xsjiaochenLink</element>
+      <element name="修改日志" type="css" value="a[href='/zentao/misc-changeLog.html']" timeout="5">xgrizhiLink</element>
+  
+  <element name="关于" type="css" value="a[href='/zentao/misc-about.html']" timeout="5">guanyuLink</element>
+	    
+</page>

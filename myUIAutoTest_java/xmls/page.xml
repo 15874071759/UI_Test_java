@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<page name="loginpage">
+	    <element name="用户名输入框" type="css" value="input#account" timeout="5">usernameInputbox</element>
+	    <element name="密码输入框" type="css" value="input[name='password']" timeout="5">passwordInputbox</element>
+	    <element name="登录按钮" type="css" value="button#submit" timeout="5">loginButton</element>
+	    <element name="语言设置按钮" type="css" value="div#langs>button.btn" timeout="5">languageButton</element>
+	    <element name="切换英语链接" type="css" value="div#langs>ul li:nth-child(3)" timeout="5">englishLink</element>
+	    <element name="我的地盘链接" type="css" value="ul.nav li.active" timeout="5">MyLink</element>
+	    <element name="主页项目链接" type="css" value="a[href='/zentao/project/']" timeout="5">projectLink</element>
+	    <element name="主页测试链接" type="css" value="li[data-id='qa']" timeout="5">testLink</element>
+	    <element name="项目页BUG链接" type="css" value="a[href='/zentao/project-bug-1.html']" timeout="5">bugLink</element>
+</page>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite1" duration-ms="27259" started-at="2016-10-31T09:01:22Z" finished-at="2016-10-31T09:01:49Z">
+    <groups>
+    </groups>
+    <test name="test1" duration-ms="27259" started-at="2016-10-31T09:01:22Z" finished-at="2016-10-31T09:01:49Z">
+      <class name="Testcases.OpenBugTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Testcases.OpenBugTest@54c562f7]" name="setup" is-config="true" duration-ms="5475" started-at="2016-10-31T17:01:16Z" finished-at="2016-10-31T17:01:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="f()[pri:0, instance:Testcases.OpenBugTest@54c562f7]" name="f" duration-ms="27232" started-at="2016-10-31T17:01:22Z" finished-at="2016-10-31T17:01:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="exit()[pri:0, instance:Testcases.OpenBugTest@54c562f7]" name="exit" is-config="true" duration-ms="2017" started-at="2016-10-31T17:01:49Z" finished-at="2016-10-31T17:01:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exit -->
+      </class> <!-- Testcases.OpenBugTest -->
+    </test> <!-- test1 -->
+  </suite> <!-- Suite1 -->
+</testng-results>

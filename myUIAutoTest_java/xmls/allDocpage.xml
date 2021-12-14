@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page name="allDoc">  
+    	<!-- 导航栏 -->
+	    <element name="文档库选择按钮" type="css" value="div#dropdown>a[data-toggle='dropdown']" timeout="5">chosenDoc</element>
+	    <element name="项目文档库选择" type="css" value="div#dropdown>ul li:nth-child(2)" timeout="5">projectDoc</element>
+	    <element name="产品文档库选择" type="css" value="div#dropdown>ul li:nth-child(1)" timeout="5">productDoc</element>
+	    <element name="文档链接" type="css" value="a[href='/zentao/doc-browse-product.html']" timeout="5">docLink</element>
+	    <element name="编辑链接" type="css" value="a[href='/zentao/doc-editLib-product.html']" timeout="5">editDoc</element>    
+	    <element name="分类链接" type="css" value="a[href='/zentao/tree-browse-product-doc.html']" timeout="5">ClassificationDoc</element>
+	    <element name="删除链接" type="css" value="a[href='/zentao/doc-deleteLib-product.html']" timeout="5">deleteDoc</element>
+	    <element name="添加文档库链接" type="css" value="a[href='/zentao/doc-createLib.html']" timeout="5">addDocku</element>
+	    <element name="文档编号查询框" type="css" value="input#searchQuery" timeout="5">sqrtDoc</element>
+	    <element name="查询按钮" type="css" value="div#objectSwitcher>a.btn" timeout="5">sqrtButton</element>
+	    <!-- 内容界面 -->
+	    <element name="创建文档" type="css" value="a[href='/zentao/doc-create-product-0-0-0-doc.html']" timeout="5">createDoc</element>
+	    <element name="搜索点击" type="css" value="li[id='bysearchTab']" timeout="5">sqrtClick</element>
+	    <element name="维护分类点击" type="css" value="a[href='/zentao/tree-browse-product-doc.html']" timeout="5">weihu</element>
+</page>

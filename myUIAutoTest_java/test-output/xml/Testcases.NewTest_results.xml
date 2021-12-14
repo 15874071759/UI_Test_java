@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="test1"
+           tests="3"
+           failures="1"
+           errors="0"
+           skipped="2"
+           time="22.277">
+  <properties />
+            <testcase name="fa" time="7.074" classname="Testcases.NewTest">
+                <failure type="org.junit.ComparisonFailure"
+                  message="expected:&lt;[百度一下，你就知道]&gt; but was:&lt;[123]&gt;"
+              >
+<![CDATA[org.junit.ComparisonFailure: expected:<[百度一下，你就知道]> but was:<[123]>
+  org.junit.Assert.assertEquals(Assert.java:115)
+  org.junit.Assert.assertEquals(Assert.java:144)
+  Testcases.NewTest.fa(NewTest.java:23)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+  java.lang.reflect.Method.invoke(Unknown Source)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+  org.testng.internal.Invoker.retryFailed(Invoker.java:967)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1146)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+  org.testng.TestRunner.privateRun(TestRunner.java:782)
+  org.testng.TestRunner.run(TestRunner.java:632)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+  org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+  org.testng.SuiteRunner.run(SuiteRunner.java:268)
+  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+  org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+  org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+  org.testng.TestNG.run(TestNG.java:1064)
+  org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:113)
+  org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:206)
+  org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)
+]]>
+      </failure>
+
+          </testcase>
+  
+            <testcase name="fa" time="0.0" classname="Testcases.NewTest">
+          <skipped />
+    </testcase>
+            <testcase name="fa" time="0.0" classname="Testcases.NewTest">
+          <skipped />
+    </testcase>
+  
+  
+</testsuite>

@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page name="sqrt">  
+        <element name="搜索展开框" type="css" value="i.icon-double-angle-down.icon-2x" timeout="5">zhankaiSqrt</element>
+	    <!-- 查找依据1--> <!-- ctrl+shift+/ --><!--  要改，不能识别！-->
+	    <element name="文档标题下拉选择框1" type="css" value="select#field1" timeout="5">selectDocTitle1</element>
+	    <element name="文档标题1" type="css" value="option[value='title']" timeout="5">docTitle1</element>
+	    <element name="文档编号1" type="css" value="option[value='id']" timeout="5">docNum1</element>
+	    <element name="关键字1" type="css" value="option[value='keywords']" timeout="5">keyWord1</element>
+	    <element name="所属产品1" type="css" value="option[value='product']" timeout="5">shuyuProduct1</element>
+	    <element name="所属项目1" type="css" value="option[value='project']" timeout="5">shuyuProject1</element>
+		<element name="文档类型1" type="css" value="option[value='type']" timeout="5">docType1</element>
+		<element name="所属分类1" type="css" value="option[value='module']" timeout="5">shuyuFenlei1</element>
+		<element name="所属文档库1" type="css" value="option[value='lib']" timeout="5">shuyuDocku1</element>
+		<element name="文档摘要1" type="css" value="option[value='digest']" timeout="5">docZheyao1</element>
+		<element name="文档正文1" type="css" value="option[value='content']" timeout="5">docContent1</element>
+		<element name="文档URL1" type="css" value="option[value='url']" timeout="5">docURL1</element>
+		<element name="由谁添加1" type="css" value="option[value='addedBy']" timeout="5">whoAdd1</element>
+		<element name="添加时间1" type="css" value="option[value='addedDate']" timeout="5">addTime1</element>
+ 	    <element name="由谁编辑1" type="css" value="option[value='editedBy']" timeout="5">whoEdit1</element>
+	    <element name="编辑时间1" type="css" value="option[value='editedDate']" timeout="5">editTime1</element>
+	    <!-- 查找依据2 -->
+	    <element name="文档标题下拉选择框2" type="css" value="select#field2" timeout="5">selectDocTitle2</element>
+	    <element name="文档标题2" type="css" value="option[value='title']" timeout="5">docTitle2</element>
+	    <element name="文档编号2" type="css" value="option[value='id']" timeout="5">docNum2</element>
+	    <element name="关键字2" type="css" value="option[value='keywords']" timeout="5">keyWord2</element>
+	    <element name="所属产品2" type="css" value="option[value='product']" timeout="5">shuyuProduct2</element>
+	    <element name="所属项目2" type="css" value="option[value='project']" timeout="5">shuyuProject2</element>
+		<element name="文档类型2" type="css" value="option[value='type']" timeout="5">docType2</element>
+		<element name="所属分类2" type="css" value="option[value='module']" timeout="5">shuyuFenlei2</element>
+		<element name="所属文档库2" type="css" value="option[value='lib']" timeout="5">shuyuDocku2</element>
+		<element name="文档摘要2" type="css" value="option[value='digest']" timeout="5">docZheyao2</element>
+		<element name="文档正文2" type="css" value="option[value='content']" timeout="5">docContent2</element>
+		<element name="文档URL2" type="css" value="option[value='url']" timeout="5">docURL2</element>
+		<element name="由谁添加2" type="css" value="option[value='addedBy']" timeout="5">whoAdd2</element>
+		<element name="添加时间2" type="css" value="option[value='addedDate']" timeout="5">addTime2</element>
+ 	    <element name="由谁编辑2" type="css" value="option[value='editedBy']" timeout="5">whoEdit2</element>
+	    <element name="编辑时间2" type="css" value="option[value='editedDate']" timeout="5">editTime2</element>
+	     <!-- 查找依据3 -->
+	      <element name="文档标题下拉选择框3" type="css" value="select#field3" timeout="5">selectDocTitle3</element>
+	    <element name="文档标题3" type="css" value="option[value='title']" timeout="5">docTitle3</element>
+	    <element name="文档编号3" type="css" value="option[value='id']" timeout="5">docNum3</element>
+	    <element name="关键字3" type="css" value="option[value='keywords']" timeout="5">keyWord3</element>
+	    <element name="所属产品3" type="css" value="option[value='product']" timeout="5">shuyuProduct3</element>
+	    <element name="所属项目3" type="css" value="option[value='project']" timeout="5">shuyuProject3</element>
+		<element name="文档类型3" type="css" value="option[value='type']" timeout="5">docType3</element>
+		<element name="所属分类3" type="css" value="option[value='module']" timeout="5">shuyuFenlei3</element>
+		<element name="所属文档库3" type="css" value="option[value='lib']" timeout="5">shuyuDocku3</element>
+		<element name="文档摘要3" type="css" value="option[value='digest']" timeout="5">docZheyao3</element>
+		<element name="文档正文3" type="css" value="option[value='content']" timeout="5">docContent3</element>
+		<element name="文档URL3" type="css" value="option[value='url']" timeout="5">docURL3</element>
+		<element name="由谁添加3" type="css" value="option[value='addedBy']" timeout="5">whoAdd3</element>
+		<element name="添加时间3" type="css" value="option[value='addedDate']" timeout="5">addTime3</element>
+ 	    <element name="由谁编辑3" type="css" value="option[value='editedBy']" timeout="5">whoEdit3</element>
+	    <element name="编辑时间3" type="css" value="option[value='editedDate']" timeout="5">editTime3</element>
+		<!-- operator 操作1 -->
+		 <element name="操作选择1" type="css" value="select#operator1" timeout="5">selectOperator1</element>
+		 <element name="=1" type="css" value="option[value='editedDate']" timeout="5">editTime1</element>
+		 <element name="!=1" type="css" value="option[value='editedDate']" timeout="5">editTime1</element>
+		 <element name=">1" type="css" value="option[value='editedDate']" timeout="5">editTime1</element>
+	     <element name=">=1" type="css" value="option[value='editedDate']" timeout="5">editTime1</element>
+		 <element name="<1" type="css" value="option[value='editedDate']" timeout="5">editTime1</element>
+		 <element name="<=1" type="css" value="option[value='editedDate']" timeout="5">editTime1</element>
+		 <element name="包含1" type="css" value="option[value='editedDate]" timeout="5">editTime1</element>
+  		 <element name="介于1" type="css" value="option[value='editedDate]" timeout="5">editTime1</element>
+  		 <element name="不包含1" type="css" value="option[value='editedDate]" timeout="5">editTime1</element>
+ 		 <element name="从属于1" type="css" value="option[value='editedDate]" timeout="5">editTime1</element>
+ 		 <!-- operator 操作2 -->
+		 <element name="操作选择2" type="css" value="select#operator2" timeout="5">selectOperator2</element>
+		 <element name="=2" type="css" value="option[value='editedDate']" timeout="5">editTime2</element>
+		 <element name="!=2" type="css" value="option[value='editedDate']" timeout="5">editTime2</element>
+		 <element name=">2" type="css" value="option[value='editedDate']" timeout="5">editTime2</element>
+	     <element name=">=2" type="css" value="option[value='editedDate']" timeout="5">editTime2</element>
+		 <element name="<2" type="css" value="option[value='editedDate']" timeout="5">editTime2</element>
+		 <element name="<=2" type="css" value="option[value='editedDate']" timeout="5">editTime2</element>
+		 <element name="包含2" type="css" value="option[value='editedDate]" timeout="5">editTime2</element>
+  		 <element name="介于2" type="css" value="option[value='editedDate]" timeout="5">editTime2</element>
+  		 <element name="不包含2" type="css" value="option[value='editedDate]" timeout="5">editTime2</element>
+ 		 <element name="从属于2" type="css" value="option[value='editedDate]" timeout="5">editTime2</element>
+ 		<!-- operator 操作3 -->
+		 <element name="操作选择3" type="css" value="select#operator3" timeout="5">selectOperator3</element>
+		 <element name="=3" type="css" value="option[value='editedDate']" timeout="5">editTime3</element>
+		 <element name="!=3" type="css" value="option[value='editedDate']" timeout="5">editTime3</element>
+		 <element name=">3" type="css" value="option[value='editedDate']" timeout="5">editTime3</element>
+	     <element name=">=3" type="css" value="option[value='editedDate']" timeout="5">editTime3</element>
+		 <element name="<3" type="css" value="option[value='editedDate']" timeout="5">editTime3</element>
+		 <element name="<=3" type="css" value="option[value='editedDate']" timeout="5">editTime3</element>
+		 <element name="包含3" type="css" value="option[value='editedDate]" timeout="5">editTime3</element>
+  		 <element name="介于3" type="css" value="option[value='editedDate]" timeout="5">editTime3</element>
+  		 <element name="不包含3" type="css" value="option[value='editedDate]" timeout="5">editTime3</element>
+ 		 <element name="从属于3" type="css" value="option[value='editedDate]" timeout="5">editTime3</element>
+ 		 <!--  输入值-->
+ 		 <element name="输入值1" type="css" value="input#value1" timeout="5">inputValue1</element>
+ 		 <element name="输入值2" type="css" value="input#value2" timeout="5">inputValue2</element>
+ 		 <element name="输入值3" type="css" value="input#value3" timeout="5">inputValue3</element>
+ 		 <!-- 且或选择2 -->
+ 		 <element name="且或选择2" type="css" value="select#andOr2" timeout="5">selectandOr2</element>
+	     <element name="并且2" type="css" value="select#andOr2 option[value='and']" timeout="5">and2</element>
+	     <element name="或者2" type="css" value="select#andOr2 option[value='or']" timeout="5">or2</element>
+	      <!-- 且或选择3 -->
+ 		 <element name="且或选择3" type="css" value="select#andOr3" timeout="5">selectandOr3</element>
+	     <element name="并且3" type="css" value="select#andOr3 option[value='and']" timeout="5">and3</element>
+	     <element name="或者3" type="css" value="select#andOr3 option[value='or']" timeout="5">or3</element>
+	      <!-- 且或选择5 -->
+ 		 <element name="且或选择5" type="css" value="select#andOr5" timeout="5">selectandOr5</element>
+	     <element name="并且5" type="css" value="select#andOr5 option[value='and']" timeout="5">and5</element>
+	     <element name="或者5" type="css" value="select#andOr5 option[value='or']" timeout="5">or5</element>
+	      <!-- 且或选择6 -->
+ 		 <element name="且或选择6" type="css" value="select#andOr6" timeout="6">selectandOr6</element>
+	     <element name="并且6" type="css" value="select#andOr6 option[value='and']" timeout="6">and6</element>
+	     <element name="或者6" type="css" value="select#andOr6 option[value='or']" timeout="6">or6</element>
+	     <!--且或组选择  -->
+	     <element name="且或组选择" type="css" value="select#groupAndOr" timeout="6">selectandOrGroup</element>
+	     <element name="并且组" type="css" value="select#groupAndOr option[value='and']" timeout="6">andGroup</element>
+	     <element name="或者组" type="css" value="select#groupAndOr option[value='or']" timeout="6">orGroup</element>
+	      <!-- 查找依据4 -->
+	    <element name="文档标题下拉选择框4" type="css" value="select#field4" timeout="5">selectDocTitle4</element>
+	    <element name="文档标题4" type="css" value="option[value='title']" timeout="5">docTitle4</element>
+	    <element name="文档编号4" type="css" value="option[value='id']" timeout="5">docNum4</element>
+	    <element name="关键字4" type="css" value="option[value='keywords']" timeout="5">keyWord4</element>
+	    <element name="所属产品4" type="css" value="option[value='product']" timeout="5">shuyuProduct4</element>
+	    <element name="所属项目4" type="css" value="option[value='project']" timeout="5">shuyuProject4</element>
+		<element name="文档类型4" type="css" value="option[value='type']" timeout="5">docType4</element>
+		<element name="所属分类4" type="css" value="option[value='module']" timeout="5">shuyuFenlei4</element>
+		<element name="所属文档库4" type="css" value="option[value='lib']" timeout="5">shuyuDocku4</element>
+		<element name="文档摘要4" type="css" value="option[value='digest']" timeout="5">docZheyao4</element>
+		<element name="文档正文4" type="css" value="option[value='content']" timeout="5">docContent4</element>
+		<element name="文档URL4" type="css" value="option[value='url']" timeout="5">docURL4</element>
+		<element name="由谁添加4" type="css" value="option[value='addedBy']" timeout="5">whoAdd4</element>
+		<element name="添加时间4" type="css" value="option[value='addedDate']" timeout="5">addTime4</element>
+ 	    <element name="由谁编辑4" type="css" value="option[value='editedBy']" timeout="5">whoEdit4</element>
+	    <element name="编辑时间4" type="css" value="option[value='editedDate']" timeout="5">editTime4</element>
+	     <!-- 查找依据5 -->
+	    <element name="文档标题下拉选择框5" type="css" value="select#field5" timeout="5">selectDocTitle5</element>
+	    <element name="文档标题5" type="css" value="option[value='title']" timeout="5">docTitle5</element>
+	    <element name="文档编号5" type="css" value="option[value='id']" timeout="5">docNum5</element>
+	    <element name="关键字5" type="css" value="option[value='keywords']" timeout="5">keyWord5</element>
+	    <element name="所属产品5" type="css" value="option[value='product']" timeout="5">shuyuProduct5</element>
+	    <element name="所属项目5" type="css" value="option[value='project']" timeout="5">shuyuProject5</element>
+		<element name="文档类型5" type="css" value="option[value='type']" timeout="5">docType5</element>
+		<element name="所属分类5" type="css" value="option[value='module']" timeout="5">shuyuFenlei5</element>
+		<element name="所属文档库5" type="css" value="option[value='lib']" timeout="5">shuyuDocku5</element>
+		<element name="文档摘要5" type="css" value="option[value='digest']" timeout="5">docZheyao5</element>
+		<element name="文档正文5" type="css" value="option[value='content']" timeout="5">docContent5</element>
+		<element name="文档URL5" type="css" value="option[value='url']" timeout="5">docURL5</element>
+		<element name="由谁添加5" type="css" value="option[value='addedBy']" timeout="5">whoAdd5</element>
+		<element name="添加时间5" type="css" value="option[value='addedDate']" timeout="5">addTime5</element>
+ 	    <element name="由谁编辑5" type="css" value="option[value='editedBy']" timeout="5">whoEdit5</element>
+	    <element name="编辑时间5" type="css" value="option[value='editedDate']" timeout="5">editTime5</element>
+	     <!-- 查找依据6 -->
+	    <element name="文档标题下拉选择框6" type="css" value="select#field6" timeout="6">selectDocTitle6</element>
+	    <element name="文档标题6" type="css" value="option[value='title']" timeout="6">docTitle6</element>
+	    <element name="文档编号6" type="css" value="option[value='id']" timeout="6">docNum6</element>
+	    <element name="关键字6" type="css" value="option[value='keywords']" timeout="6">keyWord6</element>
+	    <element name="所属产品6" type="css" value="option[value='product']" timeout="6">shuyuProduct6</element>
+	    <element name="所属项目6" type="css" value="option[value='project']" timeout="6">shuyuProject6</element>
+		<element name="文档类型6" type="css" value="option[value='type']" timeout="6">docType6</element>
+		<element name="所属分类6" type="css" value="option[value='module']" timeout="6">shuyuFenlei6</element>
+		<element name="所属文档库6" type="css" value="option[value='lib']" timeout="6">shuyuDocku6</element>
+		<element name="文档摘要6" type="css" value="option[value='digest']" timeout="6">docZheyao6</element>
+		<element name="文档正文6" type="css" value="option[value='content']" timeout="6">docContent6</element>
+		<element name="文档URL6" type="css" value="option[value='url']" timeout="6">docURL6</element>
+		<element name="由谁添加6" type="css" value="option[value='addedBy']" timeout="6">whoAdd6</element>
+		<element name="添加时间6" type="css" value="option[value='addedDate']" timeout="6">addTime6</element>
+ 	    <element name="由谁编辑6" type="css" value="option[value='editedBy']" timeout="6">whoEdit6</element>
+	    <element name="编辑时间6" type="css" value="option[value='editedDate']" timeout="6">editTime6</element>
+	    <!-- operator 操作4 -->
+		 <element name="操作选择4" type="css" value="select#operator4" timeout="5">selectOperator4</element>
+		 <element name="=4" type="css" value="option[value='editedDate']" timeout="5">editTime4</element>
+		 <element name="!=4" type="css" value="option[value='editedDate']" timeout="5">editTime4</element>
+		 <element name=">4" type="css" value="option[value='editedDate']" timeout="5">editTime4</element>
+	     <element name=">=4" type="css" value="option[value='editedDate']" timeout="5">editTime4</element>
+		 <element name="<4" type="css" value="option[value='editedDate']" timeout="5">editTime4</element>
+		 <element name="<=4" type="css" value="option[value='editedDate']" timeout="5">editTime4</element>
+		 <element name="包含4" type="css" value="option[value='editedDate]" timeout="5">editTime4</element>
+  		 <element name="介于4" type="css" value="option[value='editedDate]" timeout="5">editTime4</element>
+  		 <element name="不包含4" type="css" value="option[value='editedDate]" timeout="5">editTime4</element>
+ 		 <element name="从属于4" type="css" value="option[value='editedDate]" timeout="5">editTime4</element>
+ 		 <!-- operator 操作5 -->
+		 <element name="操作选择5" type="css" value="select#operator5" timeout="5">selectOperator5</element>
+		 <element name="=5" type="css" value="option[value='editedDate']" timeout="5">editTime5</element>
+		 <element name="!=5" type="css" value="option[value='editedDate']" timeout="5">editTime5</element>
+		 <element name=">5" type="css" value="option[value='editedDate']" timeout="5">editTime5</element>
+	     <element name=">=5" type="css" value="option[value='editedDate']" timeout="5">editTime5</element>
+		 <element name="<5" type="css" value="option[value='editedDate']" timeout="5">editTime5</element>
+		 <element name="<=5" type="css" value="option[value='editedDate']" timeout="5">editTime5</element>
+		 <element name="包含5" type="css" value="option[value='editedDate]" timeout="5">editTime5</element>
+  		 <element name="介于5" type="css" value="option[value='editedDate]" timeout="5">editTime5</element>
+  		 <element name="不包含5" type="css" value="option[value='editedDate]" timeout="5">editTime5</element>
+ 		 <element name="从属于5" type="css" value="option[value='editedDate]" timeout="5">editTime5</element>
+ 		 <!-- operator 操作6 -->
+		 <element name="操作选择6" type="css" value="select#operator6" timeout="6">selectOperator6</element>
+		 <element name="=6" type="css" value="option[value='editedDate']" timeout="6">editTime6</element>
+		 <element name="!=6" type="css" value="option[value='editedDate']" timeout="6">editTime6</element>
+		 <element name=">6" type="css" value="option[value='editedDate']" timeout="6">editTime6</element>
+	     <element name=">=6" type="css" value="option[value='editedDate']" timeout="6">editTime6</element>
+		 <element name="<6" type="css" value="option[value='editedDate']" timeout="6">editTime6</element>
+		 <element name="<=6" type="css" value="option[value='editedDate']" timeout="6">editTime6</element>
+		 <element name="包含6" type="css" value="option[value='editedDate]" timeout="6">editTime6</element>
+  		 <element name="介于6" type="css" value="option[value='editedDate]" timeout="6">editTime6</element>
+  		 <element name="不包含6" type="css" value="option[value='editedDate]" timeout="6">editTime6</element>
+ 		 <element name="从属于6" type="css" value="option[value='editedDate]" timeout="6">editTime6</element>
+ 		 <!-- 此处有问题 -->
+ 		 <element name="默认产品筛选" type="css" value="div#value4_chosen" timeout="5">mproductSelect</element>
+	    <element name="默认项目筛选" type="css" value="div#value5_chosen" timeout="5">mprojectSelect</element>
+	    <element name="默认文档类型筛选" type="css" value="div#value6_chosen" timeout="5">mdocSelect</element>
+	     
+	     <element name="搜索" type="css" value="button#submit" timeout="5">sselect</element>
+	     <element name="重置" type="css" value="button.btn btn-default" timeout="5">sresert</element>
+	     <element name="保存" type="css" value="a[href='/zentao/search-saveQuery-doc-no.html']" timeout="5">ssave</element>
+	     <element name="我的查询" type="css" value="select#queryID" timeout="5">smysqrt</element>
+	     <element name="删除我的查询" type="css" value="a.btn" timeout="5">sdelete</element>
+	
+</page>
